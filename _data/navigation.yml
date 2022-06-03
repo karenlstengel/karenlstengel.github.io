@@ -9,14 +9,18 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  # - title: "Blog Posts"
+  #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: /files/StengelCV.pdf
+
+  # TO DO: figure out adventures blog style. update posts/blog style.
+  # - title: "Adventures"
+  #   url: /adventures/
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/
