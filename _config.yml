@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ren Stengel"
+title                    : "Karen "Ren" Stengel"
 title_separator          : "-"
 name                     : &name "Ren Stengel"
 description              : &description "personal description" # TO DO
@@ -85,7 +85,7 @@ author:
   bio              : "Your biography for the left-hand sidebar" # TO DO
   location         : "Boulder, CO"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=D_n4q-gAAAAJ&hl=en"
   email            : "karen.stengel@colorado.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
