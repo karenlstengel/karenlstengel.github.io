@@ -4,23 +4,23 @@ main:
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
 
   - title: "Teaching"
-    url: /teaching/    
-    
+    url: /teaching/
+
   # - title: "Portfolio"
   #   url: /portfolio/
-        
+
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
+
   - title: "CV"
-    url: /files/StengelCV.pdf
+    url: /CV_latex/StengelCV.pdf
 
   # TO DO: figure out adventures blog style. update posts/blog style.
   # - title: "Adventures"
   #   url: /adventures/
-    
+
   # - title: "Guide"
   #   url: /markdown/
