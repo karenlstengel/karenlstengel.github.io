@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Ren Stengel"
-  avatar           : "images/profile.png"
+  avatar           : "profile.png"
   bio              : "I am a Ph.D. student at the University of Colorado researching efficient numerical methods in the PhyPID group under Prof. Jed Brown. Applications of interest: Computational Neuroscience, biomechanics, proteomics." # TO DO
   location         : "Boulder, CO"
   employer         :
