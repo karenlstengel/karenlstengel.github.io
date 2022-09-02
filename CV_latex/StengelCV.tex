@@ -39,7 +39,7 @@
 %   DOCUMENT START
 %----------------------------------------------------------------------------------------
 \title{StengelResume}
-\name{Karen``Ren" Stengel} % Your name
+\name{Karen ``Ren" Stengel} % Your name
 \address{github: @karenlstengel \\ linkedin: @karenlstengel} % Your phone number and email
 \address{karenlstengel@gmail.com \\ karen.stengel@colorado.edu}
 \begin{document}
@@ -49,7 +49,7 @@
 \vspace{-.3cm}
 \begin{rSection}{Education}
 %graduate school here
-\begin{rSubsection}{University of Colorado, Boulder}{\textit{Boulder, CO}}{Computer Science PhD student} \hfill \normalfont{GPA: 3.838} \newline \hspace*{\fill} August 2020 $\to$ Present %March 2019 $\to$ Present
+\begin{rSubsection}{University of Colorado, Boulder}{\textit{Boulder, CO}}{Computer Science PhD student} \hfill \normalfont{GPA: 3.870} \newline \hspace*{\fill} August 2020 $\to$ Present %March 2019 $\to$ Present
 %\vspace{-.1cm}
 \vspace{-.65cm}
 \item[]
@@ -72,31 +72,35 @@
 % TODO - update CU section with PSAAP stuff, etc
 \begin{rSubsection}{University of Colorado, Boulder}{August 2020 $\to$ Present}{Computer Science PhD Student}{Boulder, CO}\\
 Advisor: Dr. Jed Brown\\
-\textit{Solid Mechanics in libCEED and Ratel}
+\textit{Solid Mechanics in libCEED and Ratel (PSAAP funded)}
 \begin{itemize}
     \renewcommand\labelitemi{\textbullet}
     \setlength \itemsep{-0.4em}
-    \item Implemented the Mooney-Rivlin inelastic model and a quasi-static solver
+    \item Implemented the Mooney-Rivlin inelastic model, quasi-static solver capabilities, and multiple materials support. Assisted with contact implementation, and plasticity models.
     \item Aided conversion of the libCEED solid mechanics mini-app to a standalone library, Ratel, and miscellaneous implementation improvements
-    \item WIP: Implemented dynamic solver capabilities, composite operators for multi-materials support, current configuration versions of Mooney-Rivlin model
+    \item Presented work at PSAAP funding reviews - posters and short talks.
 \end{itemize}
 \end{rSubsection}
 
 % TODO - update with project info
 \begin{rSubsection}{Sandia National Laboratory}{May 2022 $\to$ August 2022}{Scientific Machine Learning Graduate Intern (PSAAP)}{Albuquerque, NM}\\
 Advisor: Dr. Warren L. Davis\\
-\textit{SOMETHING}
+\textit{Predicting time dependent properties of materials}
 \begin{itemize}
     \renewcommand\labelitemi{\textbullet}
     \setlength \itemsep{-0.4em}
-    \item SOMETHING
+	\item Performed main data analysis for project.
+    \item Designed and built a data processing package to properly format and edit data from raw output files. Included data augmentation and I/O to TFRecords for improved data I/O during training.
+	\item Designed and built a TensorFlow based package to perform learning on the provided material and output data. Designed to be flexible for architecture and parameter tuning.
 \end{itemize}
 Advisor: Dr. Joseph Hart\\
-\textit{CLDERA}
+\textit{CLDERA - Autoencoders for dimension reduction}
 \begin{itemize}
     \renewcommand\labelitemi{\textbullet}
     \setlength \itemsep{-0.4em}
-    \item SOMETHING
+    \item Expanded the functionality of the existing dimension reduction package (in CLDERA) to offer autoencoders as an alternative method to PCA.
+	\item Preserved existing abstraction for software design. This provids a flexible framework to allow the user to select at runtime which autoencoder or PCA method to use.
+	\item Presented work at the CLDERA group meeting as a summer wrap up.
 \end{itemize}
 \end{rSubsection}
 
@@ -154,7 +158,6 @@ Advisor: Dr. Indika Kahanda
 \end{rSubsection}
 
 \end{rSection}
-\newpage
 %----------------------------------------------------------------------------------------
 %   Publications
 %----------------------------------------------------------------------------------------
@@ -172,20 +175,12 @@ Rayaprolu, V., Royal, P., \textbf{Stengel, K.}, Sandoz, G., \& Kohout, S. C. (20
 \end{rSection}
 \fi
 %----------------------------------------------------------------------------------------
-%   Software Records
-%----------------------------------------------------------------------------------------
-\iftrue
-\begin{rSection}{Software Records}
-\textbf{Stengel, K.}, Glaws, A., Hettinger, D., \& King, R. PhIRE GANs [Software]. National Renewable Energy Laboratory. Apache 2.0. (2019) Available at: \url{https://github.com/NREL/PhIRE} %\\\\
-%\textbf{ Glaws, A.}, Stengel, K., \& King, R. S-PLN [Software]. National Renewable Energy Laboratory. Apache 2.0. (2019) Available at: \url{https://github.com/NREL/S-PLN}
-\end{rSection}
-\fi
-%----------------------------------------------------------------------------------------
 %   Posters and conference presentations
 %----------------------------------------------------------------------------------------
 \iftrue
 \begin{rSection}{Posters and Presentations}
 \setlength \itemsep{-0.4em}
+
 % add in PSAAP related ones
 \textbf{Stengel, K.}, Glaws, A., \& King, R. ``Adversarial super-resolution of climatological wind and solar data." AI Super-resolution Simulations: From Climate Science to Cosmology workshop, Carnegie Mellon University. February 23-25, 2022 [invited]
 
@@ -204,6 +199,15 @@ Rayaprolu, V., Royal, P., \textbf{Stengel, K.}, Sandoz, G., \& Kohout, S. C. ``D
 Rayaprolu, V., Royal, P., \textbf{Stengel, K.}, Sandoz, G., \& Kohout, S. C. ``Does VSP Multimerize and Does It Matter?" Montana State University Undergraduate Research Celebration. April 18, 2018
 
 \textbf{Stengel, K.}, Kohout, S. C. ``Comparison of the Voltage Sensitive Phosphatases from Vertebrate Species." Montana State University Undergraduate Research Celebration. August 04, 2016
+\end{rSection}
+\fi
+%----------------------------------------------------------------------------------------
+%   Software Records
+%----------------------------------------------------------------------------------------
+\iftrue
+\begin{rSection}{Software Records}
+\textbf{Stengel, K.}, Glaws, A., Hettinger, D., \& King, R. PhIRE GANs [Software]. National Renewable Energy Laboratory. Apache 2.0. (2019) Available at: \url{https://github.com/NREL/PhIRE} %\\\\
+%\textbf{ Glaws, A.}, Stengel, K., \& King, R. S-PLN [Software]. National Renewable Energy Laboratory. Apache 2.0. (2019) Available at: \url{https://github.com/NREL/S-PLN}
 \end{rSection}
 \fi
 %----------------------------------------------------------------------------------------
@@ -252,6 +256,10 @@ President's List \hfill Summer 2015, 2016; Fall 2016; Spring 2018
 \begin{rSection}{Projects}
 
 \setlength \itemsep{-0.4em}
+\textbf{Sandia - CLDERA} Added autoencoder functionality to an existing PCA software package for the CLDERA project. The main objective was to make switching to an autoencoder as a PCA alternative as easy as possible at runtime. All code was fully abstracted to acheive this, as well as to allow for adjusting autoencoder architectures.
+
+\textbf{Sandia - Deep Learning} Designed and built Python packages for data processing and deep learning. The goal of the this project was to be able to predict time dependent properties of materials based on the materials initial properties to reduce numerical simulation times.
+
 \textbf{NREL} - Super resolution of CCSM4 climate model wind and solar data. This project utilized data from NREL's WIND Toolkit, NREL's National Solar Radiation Database, and NCAR's CESM model. Our approach was based off of the SRGAN model with the goal of super resolving the climate wind data (100km resolution) to that of the WIND Toolkit (2km resolution) or of the NSRDB (4km resolution). This work also explored using perceptual losses rather than the standard pixel-wise losses commonly used for image generation problems. All Networks were run on NREL's supercomputer Eagle. %add in graphs when applicable
 
 \textbf{NCAR} - Long-term Weather Forecasting with Deep Learning. Designed Neural Networks for predicting hot days in the Eastern United States based on Sea Surface temperature data from the NOAA OI SST V2 High Resolution Dataset. All Networks were run on the Cheyenne Supercomputer.
