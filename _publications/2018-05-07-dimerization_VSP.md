@@ -1,5 +1,5 @@
 ---
-title: "Dimerization of the voltage-sensing phosphatase controls its voltage-sensing and catalytic activity"
+title: 'Dimerization of the voltage-sensing phosphatase controls its voltage-sensing and catalytic activity'
 collection: publications
 permalink: /publication/2018-05-07-dimerization_VSP
 excerpt: 'We investigate the effect that dimerization of VSP subunits has on VSP's voltage sensitivity and enzymatic activity.'

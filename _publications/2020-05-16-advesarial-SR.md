@@ -1,5 +1,5 @@
 ---
-title: "Adversarial super-resolution of climatological wind and solar data"
+title: 'Adversarial super-resolution of climatological wind and solar data'
 collection: publications
 permalink: /publication/2020-05-16-adversarial-SR
 excerpt: 'We used GANs to perform up to a 50x super-resolution on wind and solar climate data.'
